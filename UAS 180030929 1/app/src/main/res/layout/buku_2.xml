@@ -1,0 +1,70 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:orientation="vertical">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="15dp"
+			android:src="@drawable/supern"
+			android:scaleType="center"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Pengarang: Dewi Dee Lestari\nNegara: Indonesia\nBahasa: Indonesia dan Inggris\nTanggal Rilis: 2001"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#000000"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="Supernova adalah nama seri novel fiksi ilmiah populer karya novelis muda, Dewi Lestari. Dewi Lestari atau yang akrab dipanggil dengan nama Dee Lestari ini merupakan salah satu personel dari grup musik Rida Sita Dewi (RSD)."
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Daftar Seri Supernova:\nSupernova 1: Kesatria, Putri, &amp; Bintang Jatuh (2001)\n\nSupernova 2: Akar (2002)\n\nSupernova 3: Petir (2004)\n\nSupernova 4: Partikel (2012)\n\nSupernova 5: Gelombang (2014)\n\nSupernova 6: Inteligensi Embun Pagi (2016)"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+		<TextView
+			android:id="@+id/textview4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Dari keenam buku, baru buku pertama, Supernova 1: Kesatria, Putri, &amp; Bintang Jatuh, yang telah diterjemahkan ke dalam bahasa Inggris. Buku tersebut diterjemahkan oleh Harry Aveling, dan diterbitkan oleh Yayasan Lontar."
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Back To Catalog"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#000000"/>
+	</LinearLayout>
+</LinearLayout>

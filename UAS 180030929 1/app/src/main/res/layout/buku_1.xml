@@ -1,0 +1,60 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:orientation="vertical">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:src="@drawable/perahu"
+			android:scaleType="center"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Pengarang: Dewi Dee Lestari\nNegara: Indonesia\nBahasa: Indonesia\nPenerbit: Bentang Pustaka\nTanggal Rilis: 2009\nHalaman: 444 Halaman"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#000000"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Sinopsis: Namanya Kugy, mungil, pengkhayal, dan berantakan. Dari benaknya, mengalir untaian dongeng indah. Keenan belum pernah bertemu manusia seaneh itu. Namanya Keenan. Cerdas, artistik, dan penuh kejutan. Dari tangannya, mewujud lukisan-lukisan magis."
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:layout_gravity="center_horizontal|center_vertical"/>
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Naskah Perahu Kertas diadaptasi menjadi sebuah film tahun 2012 yang berjudul sama. Film Perahu Kertas diproduksi oleh Starvision dan Mizan Production, dan digarap oleh sutradara Hanung Bramantyo"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Back to Catalog"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#000000"
+			android:layout_gravity="left|bottom"/>
+	</LinearLayout>
+</LinearLayout>

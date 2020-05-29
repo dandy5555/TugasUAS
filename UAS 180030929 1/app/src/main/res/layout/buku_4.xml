@@ -1,0 +1,127 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<ImageView
+				android:id="@+id/imageview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="18dp"
+				android:src="@drawable/anime"
+				android:scaleType="center"
+				android:layout_gravity="center_horizontal|center_vertical"/>
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Pengarang: Harutoshi Fukui\nPenerbit: Kadokawa Shoten\nMajalah: Gundam Ace\nDemografi: Male\nVolume: 10\nGenre: Action, Fiksi, Mecha, Military"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#000000"
+				android:layout_gravity="center_horizontal|center_vertical"/>
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Mobile Suit Gundam Unicorn (disingkat menjadi Gundam Unicorn)(機動 戦士 ガンダ UC (ユニコーン)) adalah salah satu anime Gundam yang bersetting di dalam kurun waktu Universal Century.Gundam Unicorn dibproduksi dalam bentuk sebuah novel ringan dan OVA ."
+				android:textSize="12sp"
+				android:textColor="#000000"
+				android:layout_gravity="center_horizontal|center_vertical"/>
+			<ImageView
+				android:id="@+id/imageview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:src="@drawable/gundam"
+				android:scaleType="center"
+				android:layout_gravity="center_horizontal|center_vertical"/>
+			<TextView
+				android:id="@+id/textview5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="8dp"
+				android:padding="8dp"
+				android:text="ANIMASI"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#000000"
+				android:layout_gravity="center_horizontal|center_vertical"/>
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Sutradara: Kazuhiro Furuhashi\nSkenario: Yasuyuki Muto\nMusik: Hiroyuki Sawano\nStudio: Sunrise\nEpisode: 6"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#000000"
+				android:layout_gravity="center_horizontal|center_vertical"/>
+			<TextView
+				android:id="@+id/textview6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:padding="8dp"
+				android:text="Seri ini dimulai pada U.C. 0001, merupakan awal kolonisasi ruang angkasa manusia. Koloni pertama bernama Laplace, merupakan koloni yang berjenis Stanford Torus, rancangan Stanford University."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Ketika koloni ruang angkasa tersebut dan kalender Universal Century diresmikan oleh Ricardo Marcenas,perdana mentri Earth Federation, Laplace diserang oleh sekelompok teroris."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Cerita utama terjadi di UC 0096, tiga tahun setelah peristiwa Gundam Mobile Suit Gundam: Char's Counterattack dan 27 tahun sebelum Gundam F91."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Cerita ini berkisah Banagher Links, seorang anak yang tampaknya normal hidup dan pergi ke sekolah di koloni ruang angkasa."
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<TextView
+				android:id="@+id/textview10"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Hidupnya berubah suatu hari ketika ia bertemu seorang gadis bernama Audrey Burne, seperti pertemuan itu membawa dia ke dalam kontak dengan Gundam baru dan pertualangan untuk mencari benda yang disebut &quot;Kotak Laplace.&quot;"
+				android:textSize="12sp"
+				android:textColor="#000000"/>
+			<Button
+				android:id="@+id/button2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Back to Catalog"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#000000"/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
